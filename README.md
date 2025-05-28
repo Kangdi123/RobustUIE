@@ -9,9 +9,9 @@ Towards Robust Universal Information Extraction: Dataset, Evaluation, and Soluti
 ### Environment Setup
 
 ```
-conda create -n Code4UIE python=3.10
+conda create -n RobustUIE python=3.10
 
-activate Code4UIE
+activate RobustUIE
 
 pip install -r requirements.txt
 ```
