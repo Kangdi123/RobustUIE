@@ -33,27 +33,18 @@ We evaluate the robustness of the IE models using our constructed RUIE-Bench. Yo
 We use KnowCoder-7b-base as base model, click [here](https://huggingface.co/golaxy/KnowCoder-7B-base) for download.
 
 ### Training
+You can run it as follows and you can modify the hyper parametrers in scripts/run.sh
 
-Run `python [task]_Prompt.py` to construct prompts for each task accordingly.
-
-Necessary arguments are:
-
-* `dataset`: Name of the dataset.
-* `test_file`: File path of the test set.
-* `train_file`: File path of the train set.
-* `retrieval_strategy`: Retrieval strategy, including `'random'`, `'sentence_emb'`, and `'anonymized_sentence_emb'`.
-* `output_file`: The output file path.
-* `incontext_examples_num`: The number of in-context examples.
+```
+bash scripts/run.sh
+```
 
 ### Evaluation
 
-Run `python get_extraction_result.py` to interact with LLMs and get extraction results. Note that the value of variable `openai.api_key` in line 6 should be filled.
+```
+conda create -n RobustUIE python=3.10
 
-Necessary arguments are:
+activate RobustUIE
 
-* `model`: Name of the dataset.
-* `task`: Name of the task, including `'NER'`, `'RE'`, `'EAE'` and `'EE'`.
-* `dataset`: Name of the dataset.
-* `prompt_type`: Type of the prompt, including `'1stage'`, `'2stage'`, and `'1&2stage'`.
-* `input_file`: The input file path.
-* `output_file`: The output file path.
+pip install -r requirements.txt
+```
