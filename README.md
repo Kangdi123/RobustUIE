@@ -39,6 +39,12 @@ You can run it as follows and you can modify the hyper parametrers in scripts/ru
 bash scripts/run.sh
 ```
 
+When the training is over, you need to merge the lora parameters to the original model.
+
+```
+bash scripts/merge_lora_ckpts.sh
+```
+
 ### Evaluation
 
 ```
