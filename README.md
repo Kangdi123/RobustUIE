@@ -66,7 +66,7 @@ When the inference result is obtained, it can be tested according to the inferen
 bash scripts/eval.sh
 ```
 
-### Citation
+## Citation
 
 If you find the paper helpful, please cite our work:
 
