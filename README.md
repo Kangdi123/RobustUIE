@@ -49,6 +49,10 @@ bash scripts/merge_lora_ckpts.sh
 
 After training a model, you can run the following script to select augmented samples for data augmentation training of the model.
 
+```
+python LDA/LDA_strategy.py
+```
+
 ### Evaluation
 After the training is finished and the model is converted to hf format, you can follow the following steps to inference.
 
