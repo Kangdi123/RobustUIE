@@ -66,3 +66,15 @@ When the inference result is obtained, it can be tested according to the inferen
 bash scripts/eval.sh
 ```
 
+### Citation
+
+If you find the repository or paper helpful, please cite our work:
+
+```
+@article{li2024knowcoder,
+  title={Knowcoder: Coding structured knowledge into llms for universal information extraction},
+  author={Li, Zixuan and Zeng, Yutao and Zuo, Yuxin and Ren, Weicheng and Liu, Wenxuan and Su, Miao and Guo, Yucan and Liu, Yantao and Li, Xiang and Hu, Zhilei and others},
+  journal={arXiv preprint arXiv:2403.07969},
+  year={2024}
+}
+
