@@ -45,6 +45,10 @@ When the training is over, you need to merge the lora parameters to the original
 bash scripts/merge_lora_ckpts.sh
 ```
 
+### Loss-guided Data Augmentation
+
+After training a model, you can run the following script to select augmented samples for data augmentation training of the model.
+
 ### Evaluation
 After the training is finished and the model is converted to hf format, you can follow the following steps to inference.
 
@@ -57,8 +61,4 @@ When the inference result is obtained, it can be tested according to the inferen
 ```
 bash scripts/eval.sh
 ```
-
-### Loss-guided Data Augmentation
-
-After training a model, you can run the following script to select augmented samples for data augmentation training of the model.
 
