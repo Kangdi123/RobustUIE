@@ -26,7 +26,7 @@ We conduct experiments utilizing 7 datasets, comprising 3 datasets for the NER t
 
 #### 2. RUIE-Bench
 
-Our models are trained and evaluated on IE INSTRUCTIONS. You can download the data from Baidu NetDisk or Google Drive.
+We evaluate the robustness of the IE models using our constructed RUIE-Bench. You can download the data from [Google Drive](https://drive.google.com/file/d/1l8oUDkhXjZkW4fnQ2X0kd-MryTEWR-_t).
 
 ### Retrieval File Preparation
 
