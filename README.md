@@ -28,11 +28,9 @@ We conduct experiments utilizing 7 datasets, comprising 3 datasets for the NER t
 
 We evaluate the robustness of the IE models using our constructed RUIE-Bench. You can download the data from [Google Drive](https://drive.google.com/file/d/1l8oUDkhXjZkW4fnQ2X0kd-MryTEWR-_t).
 
-### Retrieval File Preparation
+### Base Model
 
-1. Please download the retrieval-related models from `https://huggingface.co/sentence-transformers/all-mpnet-base-v2` and `https://huggingface.co/flair/ner-english-ontonotes-large`, and put them to the folder `retrieval_models`.
-2. Please install the retrieval-related package: `conda install -c pytorch faiss-gpu` (Linux) or `conda install -c pytorch faiss-cpu` (Windows).
-3. Then, run `python get_dataset_embed.py` to generate retrieval files. Note that variables `dataset_name_list` and `datapath` in lines 16 and 18 should be changed according to the task and datasets.
+We use KnowCoder-7b-base as base model, click [here](https://huggingface.co/golaxy/KnowCoder-7B-base) for download.
 
 ### Prompt Construction
 
