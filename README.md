@@ -68,7 +68,7 @@ bash scripts/eval.sh
 
 ### Citation
 
-If you find the repository or paper helpful, please cite our work:
+If you find the paper helpful, please cite our work:
 
 ```
 @article{li2024knowcoder,
