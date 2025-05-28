@@ -18,66 +18,15 @@ pip install -r requirements.txt
 
 ### Dataset Preparation
 
-Please generate and put the dataset files to `[task]/[dataset]`, including `train.json` and `test.json`. (Dataset files will not be provided in this repo due to copyright concerns.)
+#### 1. Training Data
 
-There is an example of the data format in those JSON files:
+Note: Because some datasets have copyright requirements and need licenses, we cannot directly release this part of the data now. If you have a license for restricted datasets, you can use them to contact emails in Contact to obtain data.
 
-```
-[
-  {
-    "event_mentions": [
-      {
-        "event_type": "Phishing",
-        "trigger": {
-          "text": "Phishing",
-          "start": 0,
-          "end": 1
-        },
-        "arguments": [],
-        "code": "phishing_event1 = Phishing(\n    trigger = Trigger(\"Phishing\"),\n)"
-      },
-      {
-        "event_type": "Databreach",
-        "trigger": {
-          "text": "health data breaches",
-          "start": 12,
-          "end": 15
-        },
-        "arguments": [
-          {
-            "text": "UConn Health",
-            "role": "victim",
-            "type": "Organization",
-            "start": 19,
-            "end": 21
-          },
-          {
-            "text": "326,000",
-            "role": "number_of_victim",
-            "type": "Number",
-            "start": 23,
-            "end": 24
-          },
-          {
-            "text": "individuals",
-            "role": "victim",
-            "type": "Person",
-            "start": 24,
-            "end": 25
-          }
-        ],
-        "code": "databreach_event1 = Databreach(\n    trigger = Trigger(\"health data breaches\"),\n    victim = [\n        Entity(\"UConn Health\"),\n        Entity(\"individuals\"),\n    ],\n    number_of_victim = [\n        Entity(\"326,000\"),\n    ],\n)"
-      }
-    ],
-    "code_1": "phishing_event1 = Phishing(\n    trigger = Trigger(\"Phishing\"),\n)\ndatabreach_event1 = Databreach(\n    trigger = Trigger(\"health data breaches\"),\n    victim = [\n        Entity(\"UConn Health\"),\n        Entity(\"individuals\"),\n    ],\n    number_of_victim = [\n        Entity(\"326,000\"),\n    ],\n)",
-    "code_2": "from Event import Databreach,Phishing",
-    "sentence": "Phishing and other hacking incidents have led to several recently reported large health data breaches , including one that UConn Health reports affected 326,000 individuals ."
-  },
-...
-]
-```
+For specific domain Information Extraction (IE), we conduct experiments utilizing 33 datasets, comprising 23 datasets for the NER task, 8 datasets for the RE task, and 2 datasets for the ED and EAE tasks. Here is the overview of the datasets on specific domain IE by task and size. Please refer to the paper for more details of the setting of each dataset.
 
-where `"code_1"` contains the standard output of stage 2, and `"code_2"` contains the standard output of stage 1.
+#### 2. RUIE-Bench
+
+Our models are trained and evaluated on IE INSTRUCTIONS. You can download the data from Baidu NetDisk or Google Drive.
 
 ### Retrieval File Preparation
 
