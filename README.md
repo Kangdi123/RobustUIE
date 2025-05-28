@@ -32,7 +32,7 @@ We evaluate the robustness of the IE models using our constructed RUIE-Bench. Yo
 
 We use KnowCoder-7b-base as base model, click [here](https://huggingface.co/golaxy/KnowCoder-7B-base) for download.
 
-### Prompt Construction
+### Training
 
 Run `python [task]_Prompt.py` to construct prompts for each task accordingly.
 
@@ -45,7 +45,7 @@ Necessary arguments are:
 * `output_file`: The output file path.
 * `incontext_examples_num`: The number of in-context examples.
 
-### Information Extraction
+### Evaluation
 
 Run `python get_extraction_result.py` to interact with LLMs and get extraction results. Note that the value of variable `openai.api_key` in line 6 should be filled.
 
