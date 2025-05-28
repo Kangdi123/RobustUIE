@@ -71,10 +71,10 @@ bash scripts/eval.sh
 If you find the paper helpful, please cite our work:
 
 ```
-@article{li2024knowcoder,
-  title={Knowcoder: Coding structured knowledge into llms for universal information extraction},
-  author={Li, Zixuan and Zeng, Yutao and Zuo, Yuxin and Ren, Weicheng and Liu, Wenxuan and Su, Miao and Guo, Yucan and Liu, Yantao and Li, Xiang and Hu, Zhilei and others},
-  journal={arXiv preprint arXiv:2403.07969},
-  year={2024}
+@article{zhu2025towards,
+  title={Towards Robust Universal Information Extraction: Benchmark, Evaluation, and Solution},
+  author={Zhu, Jizhao and Shi, Akang and Li, Zixuan and Bai, Long and Jin, Xiaolong and Guo, Jiafeng and Cheng, Xueqi},
+  journal={arXiv preprint arXiv:2503.03201},
+  year={2025}
 }
 
