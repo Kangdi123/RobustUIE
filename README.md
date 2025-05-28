@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 Note: Because some datasets have copyright requirements and need licenses, we cannot directly release this part of the data now. If you have a license for restricted datasets, you can use them to contact emails in Contact to obtain data.
 
-For specific domain Information Extraction (IE), we conduct experiments utilizing 33 datasets, comprising 23 datasets for the NER task, 8 datasets for the RE task, and 2 datasets for the ED and EAE tasks. Here is the overview of the datasets on specific domain IE by task and size. Please refer to the paper for more details of the setting of each dataset.
+We conduct experiments utilizing 7 datasets, comprising 3 datasets for the NER task, 2 datasets for the RE task, and 2 datasets for the ED tasks. 
 
 #### 2. RUIE-Bench
 
