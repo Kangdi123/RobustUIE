@@ -55,7 +55,7 @@ python LDA/LDA_strategy.py
 ```
 
 ### Evaluation
-After the training is finished and the model is converted to hf format, you can follow the following steps to inference.
+After the training is finished, you can follow the following steps to inference.
 
 ```
 bash scripts/inference.sh
