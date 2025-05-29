@@ -34,7 +34,7 @@ We evaluate the robustness of the IE models using our constructed RUIE-Bench. Yo
 We use KnowCoder-7b-base as base model, click [here](https://huggingface.co/golaxy/KnowCoder-7B-base) for download.
 
 ### Training
-You can run it as follows and you can modify the hyper parametrers in scripts/run.sh
+You can run it as follows and you can modify the hyper parametrers in scripts/run.sh.
 
 ```
 bash scripts/run.sh
