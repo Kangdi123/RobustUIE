@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ### Dataset Preparation
 
 #### 1. Training Data
-We adopted the KnowCoder-style data format, which can be found at: [KnowCoder](https://huggingface.co/collections/golaxy/knowcoder-65fc3cd385d98567da412abf) 
+We adopted the KnowCoder-style data format, which can be found at: [KnowCoder](https://huggingface.co/collections/golaxy/knowcoder-65fc3cd385d98567da412abf).
 
 Note: Because some datasets have copyright requirements and need licenses, we cannot directly release this part of the data now. If you have a license for restricted datasets, you can use them to contact emails in Contact to obtain data.
 
